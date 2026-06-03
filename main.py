@@ -42,16 +42,16 @@ model.fit(X, labels)
 # -----------------------------
 # Step 4: Prediction Loop
 # -----------------------------
-print("\n✅ AI System Ready (type 'exit' to stop)")
+print("\n AI System Ready (type 'exit' to stop)")
 
 while True:
     user_input = input("\nEnter a sentence: ")
 
     if user_input.lower() == "exit":
-        print("👋 Exiting AI system")
+        print(" Exiting AI system")
         break
 
     input_vector = vectorizer.transform([user_input])
     prediction = model.predict(input_vector)
 
-    print("🤖 Prediction:", prediction[0])
+    print("Prediction:", prediction[0])
