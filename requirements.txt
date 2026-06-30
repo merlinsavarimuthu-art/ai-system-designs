@@ -1,0 +1,10 @@
+scikit-learn
+fastapi
+uvicorn
+openai
+python-dotenv
+langchain
+openai
+faiss-cpu
+pypdf
+tiktoken
